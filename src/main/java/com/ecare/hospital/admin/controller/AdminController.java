@@ -45,6 +45,7 @@ public class AdminController {
 		return result;
 	}
 
+	//getting all the doctors list
 	@GetMapping("get/doctor/{id}")
 	public ResponseEntity<Document>  getDoctorDetailsById(@PathVariable Integer id){
 
